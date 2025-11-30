@@ -36,3 +36,22 @@
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
+@media (max-width: 850px) {
+    .about__content {
+        flex-direction: column; 
+        align-items: center;
+        width: 90%; 
+    }
+    
+    .about__text {
+        
+        flex: none;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .about__image {
+        width: 100%; 
+        max-width: 400px; 
+    }
+}
