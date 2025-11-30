@@ -1,0 +1,30 @@
+section {
+  width: 80%;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+section ul li {
+  list-style: none;
+  padding: 10px 18px;
+  background: #14bfb1;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}

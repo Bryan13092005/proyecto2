@@ -1,0 +1,38 @@
+.about {
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.about__content {
+  width: 85%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.about__text {
+  flex: 1;
+}
+
+.about__title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #213547;
+  margin-bottom: 20px;
+}
+
+.about__paragraph {
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.about__image {
+  width: 420px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}

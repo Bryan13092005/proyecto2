@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 80px 20px;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 420px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transition: 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 15px 40px rgba(102,126,234,0.4);
+}
