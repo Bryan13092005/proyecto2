@@ -9,9 +9,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-/* CSS RESET GLOBAL PARA EL 100% DEL ANCHO */
 html,
 body {
   margin: 0;
