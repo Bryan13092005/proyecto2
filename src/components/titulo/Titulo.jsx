@@ -2,7 +2,7 @@ import React from 'react'
 import './Titulo.css'
 function Titulo() {
     return (
-        <header className='header'>
+        <header className='header' id='Inicio'>
         <h1 className='titulo'>
             Desarrolladores Frontend
         </h1>

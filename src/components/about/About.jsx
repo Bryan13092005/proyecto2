@@ -5,7 +5,7 @@ import imagenLateral from '../../assets/imagen2.png'; // ajusta la ruta si la ti
 
 const About = () => {
   return (
-    <section id="about" className="about">
+    <section id="SobreNosotros" className="about">
       <div className="about__content">
         <div className="about__text">
           <h2 className="about__title">Sobre Nosotros</h2>
