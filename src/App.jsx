@@ -1,17 +1,17 @@
-import Integrantes from './components/integrantes/Integrantes.jsx';
-import About from './components/about/About.jsx';
-import Titulo from './components/titulo/Titulo.jsx';
-import Conocimientos from './components/Conocimientos/Conocimientos.jsx';
-import BarraNavegacion from './components/BarraNavegacion/barraNavegacion.jsx';
+import { BrowserRouter, Route, Routes } from 'react-router';
+import Login from './components/login/Login';
+import Register from './components/register/Register';
+import Landing from './components/landing/Landing';
+
 function App() {
   return (
-    <>
-    <BarraNavegacion/>
-    <Titulo/>
-    <Conocimientos/>
-    <Integrantes />
-    <About />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Landing />} />
+        <Route path='login' element={<Login />} />
+        <Route path='register' element={<Register />} />
+      </Routes>    
+    </BrowserRouter>
   )
 }
 
