@@ -1,15 +1,15 @@
-import React from 'react'
-import './barraNavegacion.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./barraNavegacion.css";
 
-function barraNavegacion() {
+export default function BarraNavegacion() {
   return (
-    <section className='menuBotones'>
-      <a href="#Inicio" className='botones'>Inicio</a>
-      <a href="#SobreNosotros" className='botones'>Sobre nosotros</a>
-      <a href="#" className='botones'>Iniciar Sesion</a>
-      <a href="#" className='botones registro'>Registrarse</a>
-    </section>
-  )
-}
+    <section className="menuBotones">
+      <a href="#Inicio" className="botones">Inicio</a>
+      <a href="#SobreNosotros" className="botones">Sobre nosotros</a>
 
-export default barraNavegacion
+      <Link to="/login" className="botones">Iniciar Sesion</Link>
+      <Link to="/proyecto2/register" className="botones registro">Registrarse</Link>
+    </section>
+  );
+}
