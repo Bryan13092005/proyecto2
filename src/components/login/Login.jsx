@@ -11,13 +11,13 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validación básica
+  
     if (email.trim() === "" || password.trim() === "") {
       alert("Completa todos los campos");
       return;
     }
 
-    // Simulación de login (solo frontend)
+    // Cuenta para admin
     if (email === "admin@gmail.com" && password === "1234") {
       console.log("Login exitoso. Redirigiendo a /dashboard");
       navigate("/dashboard");
@@ -30,7 +30,6 @@ const Login = () => {
     <div className="login-container">
       <form className="login-box" onSubmit={handleSubmit}>
         <h2>Iniciar Sesión</h2>
-
         <input
           type="email"
           placeholder="Correo electrónico"
@@ -39,7 +38,6 @@ const Login = () => {
           autoComplete="email"
           aria-label="Correo electrónico"
         />
-
         <input
           type="password"
           placeholder="Contraseña"
