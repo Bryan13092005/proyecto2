@@ -1,18 +1,19 @@
-import { BrowserRouter, Route, Routes } from 'react-router';
+import { HashRouter, Routes, Route  } from "react-router-dom";
 import Login from './components/login/Login';
-import Register from './components/register/Register';
+import Register from './components/register/Register.jsx';
 import Landing from './components/landing/Landing';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route index element={<Landing />} />
-        <Route path='login' element={<Login />} />
-        <Route path='register' element={<Register />} />
-      </Routes>    
-    </BrowserRouter>
-  )
+
+<HashRouter>
+  <Routes>
+    <Route index element={<Landing />} />
+    <Route path="login" element={<Login />} />
+    <Route path="register" element={<Register />} />
+  </Routes>
+</HashRouter>
+  );
 }
 
-export default App
+export default App;

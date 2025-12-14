@@ -1,8 +1,8 @@
-
+import './Register.css'
 
 function Register() {
   return (
-    <div>Componente de Registro</div>
+    <div><h1>Componente de Registro</h1></div>
   )
 }
 
