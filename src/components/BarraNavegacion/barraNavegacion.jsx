@@ -9,7 +9,7 @@ export default function BarraNavegacion() {
       <a href="#SobreNosotros" className="botones">Sobre nosotros</a>
 
       <Link to="/login" className="botones">Iniciar Sesion</Link>
-      <Link to="register" className="botones registro">Registrarse</Link>
+      <Link to="/register" className="botones registro">Registrarse</Link>
     </section>
   );
 }
