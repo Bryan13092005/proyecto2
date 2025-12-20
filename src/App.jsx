@@ -6,7 +6,7 @@ import Landing from './components/landing/Landing';
 function App() {
   return (
 
-<BrowserRouter>
+<BrowserRouter basename="/proyecto2">
   <Routes>
     <Route index element={<Landing />} />
     <Route path="login" element={<Login />} />
