@@ -1,17 +1,45 @@
-div {
-  display: flex;
-  justify-content: center;
-  gap: 0;
-  padding: 0;
-  margin: 0;
-  width: 100%;
+.imagen-swiper {
+  width: 600px;
+  height: 330px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(1, 134, 250, 0.3);
 }
 
-img {
+.imagen-swiper img {
   width: 100%;
-  height: 330px;
+  height: 100%;
   object-fit: cover;
-  border-radius: 0;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-  transition: 0.4s ease;
+}
+
+/* Estilos para navegación */
+.imagen-swiper .swiper-button-next,
+.imagen-swiper .swiper-button-prev {
+  color: #0186fa;
+  transition: all 0.3s ease;
+}
+
+.imagen-swiper .swiper-button-next:after,
+.imagen-swiper .swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.imagen-swiper .swiper-button-next:hover,
+.imagen-swiper .swiper-button-prev:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #0186fa;
+}
+
+/* Estilos para paginación */
+.imagen-swiper .swiper-pagination-bullet {
+  background-color: #0186fa;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.imagen-swiper .swiper-pagination-bullet-active {
+  background-color: #0186fa;
+  opacity: 1;
+  box-shadow: 0 0 10px #0186fa;
 }
