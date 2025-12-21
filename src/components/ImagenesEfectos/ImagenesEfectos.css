@@ -1,0 +1,26 @@
+.Efectos {
+    max-width: 1200px;
+    margin: 0 auto 60px;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 350px;
+    height: 220px;
+    object-fit: center;
+    border-radius: 8px;
+    display: block;
+    box-shadow: 4px 4px 10px #0186faaa;
+}
+
+@media(width>=768px) {
+    .Efectos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
