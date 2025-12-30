@@ -11,11 +11,8 @@
     "build:github": "vite build --config vite.config.github.js"
   },
   "dependencies": {
-<<<<<<< HEAD
     "firebase": "^12.7.0",
-=======
     "aos": "^2.3.4",
->>>>>>> 7f662f3ce0603038977226cf65f108b3c5c55271
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.10.1",
